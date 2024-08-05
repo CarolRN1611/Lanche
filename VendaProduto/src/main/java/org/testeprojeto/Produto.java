@@ -73,6 +73,21 @@ public class Produto {
         Scanner scanner = new Scanner(System.in);
         boolean sair = false;
 
+        Produto cachorroQuente = new Produto(1, 4.00, "C:\\Users\\aluno\\Downloads\\Produtos\\cachorroQuente.jpeg", "Cachorro Quente");
+        listaProduto.add(cachorroQuente);
+
+        Produto xSalada = new Produto(2, 4.50, "C:\\Users\\aluno\\Downloads\\Produtos\\xSalada.jpeg", "X-Salada");
+        listaProduto.add(xSalada);
+
+        Produto xBacon = new Produto(3, 5.00, "C:\\Users\\aluno\\Downloads\\Produtos\\xBacon.jpeg", "X-Bacon");
+        listaProduto.add(xBacon);
+
+        Produto torradaSimples = new Produto(4, 2.00, "C:\\Users\\aluno\\Downloads\\Produtos\\torradaSimples.jpeg", "Torrada Simples");
+        listaProduto.add(torradaSimples);
+
+        Produto refrigerante = new Produto(5, 1.5, "C:\\Users\\aluno\\Downloads\\Produtos\\refrigerante.jpeg", "Refrigerante");
+        listaProduto.add(refrigerante);
+
         while (!sair) {
             System.out.println("1-Cadastrar Produto");
             System.out.println("2-Fazer Venda");
